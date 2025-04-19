@@ -1,0 +1,9 @@
+# config.yaml
+rendering:
+  priority: 
+    - cuda
+    - directx12
+    - software
+thresholds:
+  motion_sensitivity: 0.015  # 可调参数
+  color_variance: 15
